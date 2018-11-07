@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY= 'ZZZZZ';
+const API_KEY= 'ZZZZ';
 const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 //action creator returns an action - an object which always needs to have a type
